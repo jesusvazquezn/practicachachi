@@ -36,6 +36,7 @@ namespace Practica.Chachi
                 Chrome.FindElement(By.Id("ctl00_wpm_HomePage_ctl01_Simplesearch_SearchPhrase")).SendKeys(product);
                 Chrome.FindElementById("ctl00_wpm_HomePage_ctl01_Simplesearch_SearchButton").Click();
                 Chrome.FindElementByXPath("//*[@id=\"ctl00_wpm_SearchPage_ctl05_SearchResultsAjaxPanel\"]/table/tbody/tr");
+                Console.WriteLine("ESTO FUNCIONA DEL MAMI QUEVEDO");
             } catch (Exception e)
             {
                 Console.WriteLine("EEEEERROOOOOOOR: " + e);
